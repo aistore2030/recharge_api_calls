@@ -27,6 +27,8 @@ $array= json_decode($output, true);
 
 var_dump($array);
 
+// response will be success,  pending  in case of succesfully process in all other resposes will be for failure plz note in pending cases sytem will automatically refund  after dispute
+
 
 exit;
 
