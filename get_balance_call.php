@@ -1,7 +1,7 @@
 
 <?php
 
-$url="http://localhost:8090/httpapi/balance?email=loginemail@id.com&api_key=661633746223524";
+$url="http://localhost:8080/SakshAPIv1/Balance?username=[username]&password=[password]4";
 
 $request_timeout = 60; // 60 seconds timeout
 
