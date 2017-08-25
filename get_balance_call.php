@@ -1,7 +1,7 @@
 
 <?php
 
-$url="http://localhost:8080/SakshAPIv1/Balance?username=[username]&password=[password]4";
+$url="http://localhost:8080/SakshAPIv1/Balance?username=[username]&password=[password]";
 
 $request_timeout = 60; // 60 seconds timeout
 
@@ -18,8 +18,8 @@ curl_close($ch);
 
 
 $array= json_decode($output, true);
-//var_dump($array);
-echo "Total Balance is ".$array[0]['total'];
+var_dump($array);
+ 
 
 
 exit;
