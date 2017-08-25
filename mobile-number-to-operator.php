@@ -1,7 +1,7 @@
 
 <?php
 
-$url="http://qualityemaillist.com/offers/?mobile=88588866611&email=susheel@sakshamapp.com&password=pass";
+$url="http://localhost/Offers/Operator?mobile=[mobileno.]";
 
 $request_timeout = 60; // 60 seconds timeout
 
