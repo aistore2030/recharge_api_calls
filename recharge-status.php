@@ -1,6 +1,6 @@
 <?php
 
-$url="http://localhost:8080/httpapi/status?email=loginemail@id.com&api_key=9559190379&transaction_id=23456723456564";
+$url="http://localhost:8080/SakshAPIv1/Status?username=[username]&password=[password]&txid=[txid]";
 
 
 $request_timeout = 60; // 60 seconds timeout
