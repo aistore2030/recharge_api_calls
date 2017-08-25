@@ -1,7 +1,7 @@
 
 <?php
 
-$url="http://localhost/Offers/Operator?mobile=[mobileno.]";
+$url="http://localhost/Offers/Operator?mobile=[mobileno]";
 
 $request_timeout = 60; // 60 seconds timeout
 
