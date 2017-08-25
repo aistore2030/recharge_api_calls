@@ -1,7 +1,7 @@
 <?php
 
 
-$url="http://localhost:8080/httpapi/recharge-request?email=loginemail@id.com&api_key=k&recharge_operator=A&recharge_circle=10&recharge_number=9935457781&amount=10";
+$url="http://localhost:8080/SakshAPIv1/Recharge?username=[username]&password=[password]&recharge_circle=[recharge_circle]&recharge_operator=[recharge_operator]&recharge_number=[recharge_number]&amount=[amount]";
 
 $request_timeout = 60; // 60 seconds timeout
 
